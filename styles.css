@@ -55,8 +55,8 @@ a{
 	background: pink;
 	z-index: 5;
 	overflow: hidden;
-	animation: loader 2s ease 2s;
-    animation-fill-mode: forwards;
+	animation: loader 2s ease 3s;
+        animation-fill-mode: forwards;
 }
 
 .loader .intro{
@@ -73,10 +73,10 @@ a{
 }
 @keyframes loader{
 	0%{
-        opacity: 1;
+            opacity: 1;
 	}
 	100%{
-		opacity: 0;
+	    opacity: 0;
 	}
 }
 /* Landing Page */
