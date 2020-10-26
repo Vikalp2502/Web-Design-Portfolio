@@ -156,5 +156,19 @@
     		<div class="strip2"></div>
     	</div>
     </section>
+	<script>
+	     function myFunction(x){
+    if(x.matches){
+        document.body.style.zoom="100%";
+    }else{
+    	document.body.style.zoom="75%";
+    }   
+} 
+if (matchMedia) {
+	    const x = window.matchMedia("(min-width: 600px)");
+        x.addListener(myFunction);
+        myFunction(x);
+}
+	</script>
 </body>
 </html>
