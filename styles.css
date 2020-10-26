@@ -727,7 +727,7 @@ li a:hover{
 
 /* Mobile */
 
-@media screen and (max-width: 1020px){
+@media only screen and (max-width: 1020px){
 	h3{
 		font-size: 100px;
 	}
